@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+    --bg-color: #567568;
+    --text-color: #7F9172;
+    --highlight-color-one: #1D2D44;
+    --highlight-color-two: #F4E9CD;
+}
+
+body{
+    background-color: seagreen;
+
+}
+/* Hero Section */
+.hero-section {
+    background-color: #1D2D44;
+    background-size: cover;
+    background-position: 50%50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.bg-light {
+    background-color: red;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    font-family: "Gasoek One", sans-serif;
+}
+
+.btn.btn-primary {
+    background-color:#1D2D44;
+    border:none
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
+
+h2,h3,h4,h5 {
+    font-family: "Gasoek One", sans-serif;
+}
+.hero-section .lead {
+    font-size: 1.5rem;
+}
+
+.work-card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.work-card img {
+    font-family: "Vend Sans", sans-serif;
+    border-radius: 0;
+    border: none;
+    background-color: var(--highlight-color-two);
+}
+
+.work-card {
+    background-color: var(--text-color);
+}
+
+.htn{
+    background-color: var(--highlight-color-one);
+}
+
+h2 {
+    font-weight: 700;
+    color:var(--highlight-color-one);
+}
